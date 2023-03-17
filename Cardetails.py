@@ -38,7 +38,7 @@ class Cardet:
         mydb = pymysql.connect(
             user="root",
             host="localhost",
-            password="2510triblaz",
+            password="root",
             database="car_rental_service"
         )
         db_cursor = mydb.cursor()
@@ -105,7 +105,7 @@ class Cardet:
             mydb = pymysql.connect(
                 host='localhost',
                 user='root',
-                password='2510triblaz',
+                password='root',
                 db='car_rental_service'
             )
         except:
@@ -339,7 +339,7 @@ class Cardet:
             mydb = pymysql.connect(
                 host='localhost',
                 user='root',
-                password='2510triblaz',
+                password='root',
                 db='car_rental_service'
             )
         except:
@@ -394,7 +394,7 @@ class Cardet:
             mydb = pymysql.connect(
                 host='localhost',
                 user='root',
-                password='2510triblaz',
+                password='root',
                 db='car_rental_service'
             )
         except:
@@ -429,7 +429,7 @@ class Cardet:
             mydb = pymysql.connect(
                 host='localhost',
                 user='root',
-                password='2510triblaz',
+                password='root',
                 db='car_rental_service'
             )
         except:
@@ -451,7 +451,7 @@ class Cardet:
             mydb = pymysql.connect(
                 host='localhost',
                 user='root',
-                password='2510triblaz',
+                password='root',
                 db='car_rental_service'
             )
         except:

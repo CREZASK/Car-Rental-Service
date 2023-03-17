@@ -67,7 +67,7 @@ class Display:
 
     @staticmethod
     def edit_details(name, email, address, phone):
-        mydb = mysql.connector.connect(host="localhost", user="root", password="2510triblaz", db="Car_Rental_Service")
+        mydb = mysql.connector.connect(host="localhost", user="root", password="root", db="Car_Rental_Service")
         db_cursor = mydb.cursor()
         q = "select Username from login"
         fetch = []
@@ -181,7 +181,7 @@ class Display:
             try:
                 con = pymysql.connect(
                     user="root",
-                    password="2510triblaz",
+                    password="root",
                     host="localhost",
                     database='car_rental_service'
                 )
@@ -227,7 +227,7 @@ class Display:
                 mydb = pymysql.connect(
                     host='localhost',
                     user='root',
-                    password='2510triblaz',
+                    password='root',
                     db='car_rental_service'
                 )
             except:
@@ -267,7 +267,7 @@ class Display:
                 mydb = pymysql.connect(
                     host='localhost',
                     user='root',
-                    password='2510triblaz',
+                    password='root',
                     db='car_rental_service'
                 )
             except:
@@ -414,7 +414,7 @@ class Display:
         else:
             con = pymysql.connect(
                 user="root",
-                password="2510triblaz",
+                password="root",
                 host="localhost", database='car_rental_service'
             )
             cursor = con.cursor()
@@ -444,7 +444,7 @@ class Display:
             try:
                 con = pymysql.connect(
                     user="root",
-                    password="2510triblaz",
+                    password="root",
                     host="localhost",
                     database='car_rental_service'
                 )
@@ -489,7 +489,7 @@ class Display:
             try:
                 con = pymysql.connect(
                     user="root",
-                    password="2510triblaz",
+                    password="root",
                     host="localhost"
                 )
                 cursor = con.cursor()

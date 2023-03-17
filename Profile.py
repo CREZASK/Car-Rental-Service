@@ -39,7 +39,7 @@ class Profile:
 
     @staticmethod
     def deleteAccount(smg, passwo, copass):
-        mydb = mysql.connector.connect(host="localhost", user="root", password="2510triblaz", db="Car_Rental_Service")
+        mydb = mysql.connector.connect(host="localhost", user="root", password="root", db="Car_Rental_Service")
         db_cursor = mydb.cursor()
         try:
             Queryall = 'Select Username from customer_details'
@@ -74,7 +74,7 @@ class Profile:
     def openImage(self):
         mydb = pymysql.connect(
             user="root",
-            password="2510triblaz",
+            password="root",
             host="localhost",
             database='car_rental_service'
         )
@@ -93,7 +93,7 @@ class Profile:
     def Profile_frame(self):
         mydb = pymysql.connect(
             user="root",
-            password="2510triblaz",
+            password="root",
             host="localhost",
             database='car_rental_service'
         )
