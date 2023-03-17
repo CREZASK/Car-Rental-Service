@@ -174,7 +174,7 @@ class CRService:
         try:
             mydb = pymysql.connect(
                 user="root",
-                password="2510triblaz",
+                password="root",
                 host="localhost",
                 database='car_rental_service'
             )
@@ -204,7 +204,7 @@ class CRService:
         try:
             con = pymysql.connect(
                 user="root",
-                password="2510triblaz",
+                password="root",
                 host="localhost",
                 database='car_rental_service'
             )
@@ -226,7 +226,7 @@ class CRService:
         try:
             mydb = pymysql.connect(
                 user="root",
-                password="2510triblaz",
+                password="root",
                 host="localhost",
                 database='car_rental_service'
             )
@@ -251,7 +251,7 @@ class CRService:
         try:
             mydb = pymysql.connect(
                 user="root",
-                password="2510triblaz",
+                password="root",
                 host="localhost",
                 database='car_rental_service'
             )
